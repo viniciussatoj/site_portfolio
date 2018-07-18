@@ -1,0 +1,25 @@
+
+// Body
+$body-bg: #FFF;
+
+// Typography
+$font-family-sans-serif: 'Libre Baskerville', serif;
+$font-size-base: 0.9rem;
+$small-font-size: 70%;
+$line-height-base: 1.6;
+
+//layout
+$grid-breakpoints: (
+  xs: 0,
+  sm: 768px,
+  md: 1024px,
+  lg: 1280px
+);
+
+$container-max-widths: (
+  sm: 640px,
+  md: 880px,
+  lg: 1080px
+);
+
+$grid-gutter-width: 25px;
