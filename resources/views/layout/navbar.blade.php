@@ -13,6 +13,6 @@
         </div>
     </div>
     <div class="row justify-content-center">
-        <p class="titulo-descricao col-9">Eu gosto de entender como e por quê as coisas são como são e achei no Design o ambiente perfeito para atuar dessa maneira.</p>
+        <p class="titulo-descricao col-lg-9 col-md-9 col-sm-12">Eu gosto de entender como e por quê as coisas são como são e achei no Design o ambiente perfeito para atuar dessa maneira.</p>
     </div>
 </div>

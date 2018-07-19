@@ -104,37 +104,40 @@ html, body {
 
 //## ITENS PORTFOLIO ##//
 .image-grid {
-  display: grid;
-  align-content: start;
-  align-items: start;
-  max-width: 100%;
-  height: 100%;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   padding: 0;
-  list-style: none;
-  margin: 0;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 24px;
-  grid-row-gap: 24px;
 }
+
 
 .image-grid__item {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
-  width: 100%;
   height: 240px;
-  align-items: stretch;
   position: relative;
   transition: text-shadow 0.1s ease-in, -webkit-transform 0.14s ease-in;
   transition: transform 0.14s ease-in, text-shadow 0.1s ease-in;
   transition: transform 0.14s ease-in, text-shadow 0.1s ease-in, -webkit-transform 0.14s ease-in;
+  @media screen and (max-width:576px){
+    width: 100%; 
+    padding: 0 1em;
+    margin-bottom: 1em;
+  }
+  @media screen and (min-width:577px) and (max-width:768px){
+    width: 45%; 
+    margin-bottom: 1em;
+  }
+  @media screen and (min-width:769px){
+    width: 30%; 
+    margin-bottom: 1.5em;
+  }
 }
 .image-grid__item:before {
   content: "";
   visibility: hidden;
-  position: absolute;
   top: 0;
   left: 0;
   right: 0;
