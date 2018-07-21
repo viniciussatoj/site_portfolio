@@ -3,7 +3,7 @@
 
 <div class="container">
     <div class="row projeto justify-content-center">
-        <div class="col-9 projeto-destaque">
+        <div class="col-lg-9 col-md-9 col-sm-12 projeto-destaque">
             <div class="row">
                 <div class="col-12 destaque-principal">
                     <img class="mx-auto" src="../img/projetos/nightnights/userinterface.png" />
@@ -35,21 +35,23 @@
         </div>
     </div>
 </div>
-<div class="container-fluid impar">
-    <div class="row projeto justify-content-center">
-        <div class="col-lg-6 secao-explicacao">
-            <h4>Como era</h4>
-            <p>Sendo um protótipo, o app estava bem cru em questões de navegação, não havia como procurar temas, histórias específicas, autores, nada. Tudo o que o usuário poderia fazer é escolher uma história e torcer para que fosse boa.<br />O desafio então era melhorar a navegação no nosso app.</p>
-            <div class="projeto-imagem">
-                <img class="img-80" src="../img/projetos/nightnights/Mini.png" />
-                <div class="legenda-imagem" >O app veio praticamente sem maneira de navegar entre as histórias apresentadas.</div>
+<div class="impar">
+    <div class="container">
+        <div class="row projeto justify-content-center">
+            <div class="col-lg-9 col-md-12 col-sm-12 secao-explicacao">
+                <h4>Como era</h4>
+                <p>Sendo um protótipo, o app estava bem cru em questões de navegação, não havia como procurar temas, histórias específicas, autores, nada. Tudo o que o usuário poderia fazer é escolher uma história e torcer para que fosse boa.<br />O desafio então era melhorar a navegação no nosso app.</p>
+                <div class="projeto-imagem">
+                    <img class="img-80" src="../img/projetos/nightnights/Mini.png" />
+                    <div class="legenda-imagem" >O app veio praticamente sem maneira de navegar entre as histórias apresentadas.</div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 <div class="container">
     <div class="row projeto justify-content-center">
-        <div class="col-lg-9 secao-texto">
+        <div class="col-lg-9 col-md-12 col-sm-12 secao-texto">
             <h4>Feedback de usuários</h4>
             <h5>Impressão dos usuários</h5>
             <p>Foi perguntado aos usuários como eles usavam o app e chegamos em alguns feedbacks interessantes:</p>
@@ -83,22 +85,24 @@ Os dados dessa pesquisa foram usados posteriormente como referência de importâ
         </div>
     </div>
 </div>
-<div class="container-fluid impar">
-    <div class="row projeto justify-content-center">
-        <div class="col-lg-7 secao-texto">
-            <h4>Definição de soluções</h4>
-            <h5>How Might We</h5>
-            <p>O próximo passo foi utilizar o processo “How Might We” para pensar em soluções para os problemas encontrados. Aqui eu tentei considerar as soluções em uma escala de possibilidade de implementação para determinar quais seriam utilizadas nessa iteração do app.</p>
-            <div class="projeto-imagem">
-                <img class="img-80" src="../img/projetos/nightnights/howmightwe.jpeg" />
-                <div class="legenda-imagem" >No final do processo essas foram as ideias escolhidas para serem levadas em frente.</div>
+<div class="impar">
+    <div class="container">
+        <div class="row projeto justify-content-center">
+            <div class="col-lg-9 col-md-12 col-sm-12  secao-texto">
+                <h4>Definição de soluções</h4>
+                <h5>How Might We</h5>
+                <p>O próximo passo foi utilizar o processo “How Might We” para pensar em soluções para os problemas encontrados. Aqui eu tentei considerar as soluções em uma escala de possibilidade de implementação para determinar quais seriam utilizadas nessa iteração do app.</p>
+                <div class="projeto-imagem">
+                    <img class="img-80" src="../img/projetos/nightnights/howmightwe.jpeg" />
+                    <div class="legenda-imagem" >No final do processo essas foram as ideias escolhidas para serem levadas em frente.</div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 <div class="container">
     <div class="row projeto justify-content-center">
-        <div class="col-lg-9 secao-texto">
+        <div class="col-lg-9 col-md-12 col-sm-12 secao-texto">
             <h4>Sketch</h4>
             <p>Com base nas ideias propostas foram feitos os sketches para a UI.</p>
             <p>Uma grande inspiração da interface do NightNights foi a Netflix, a sua interface que incentiva a descoberta de novos títulos com sugestões e agrupamentos caiu como uma luva para o projeto.</p>
@@ -120,65 +124,69 @@ Os dados dessa pesquisa foram usados posteriormente como referência de importâ
         </div>
     </div>
 </div>
-<div class="container-fluid impar">
-    <div class="row projeto justify-content-center">
-        <div class="col-lg-7 secao-texto">
-            <h4>Criação de wireframes e validação</h4>
-        </div>
-        <div class="col-lg-12">
-            <img class="img-100" src="../img/projetos/nightnights/wireframes.png" />
-        </div>
-        <div class="col-lg-7 secao-texto">
-            <p>Feito os sketches eu criei os wireframes no Figma para validação de fluxo e layout. Esses wireframes foram transformados em um protótipo e enviados para o tablet para validar com usuários se a ideia funcionava ou não.</p>
-            <p>Este teste foi útil para saber se o destaque que eu estava dando para cada informação era o suficiente e se o fluxo fazia sentido para os usuários. Corrigido alguns posicionamentos e tamanho de fonte eu comecei a versão final da interface.</p>
-        </div>
-    </div>
-</div>
-<div class="container-fluid">
-    <div class="row projeto justify-content-center">
-        <div class="col-lg-7 secao-texto">
-            <h4>User Interface</h4>
-            <p>A interface também foi criada no Figma, como eu já tinha criado a base antes para os wireframes, foi questão de identificar quais eram os elementos que iam se repetir criar símbolos deles para montar o restante das páginas.</p>
-        </div>
-        <div class="col-lg-12">
-            <img class="img-100" src="../img/projetos/nightnights/userinterface.png" />
-        </div>
-        <div class="col-lg-7 secao-texto">
-            <p>Por essa não ser uma versão final ainda eu não me preocupei tanto com as imagens e cards dos livros. Fiz o essencial para que eu conseguisse fazer um novo protótipo que não passasse estranhamento para o tester.</p>
-        </div>
-    </div>
-</div>
-<div class="container-fluid impar">
-    <div class="row projeto justify-content-center">
-        <div class="col-lg-7 secao-texto">
-            <h4>Testes com usuários</h4>
-            <p>Com esse novo protótipo em mãos fiz 6 testes seguindo o mesmo roteiro com usuários diferentes. Eu entreguei um cartão para cada com informações sobre o filho contendo:</p>
-            <ol>
-                <li>Idade</li>
-                <li>Que tipo de história gostaria de ler</li>
-                <li>O que os amigos tem lido</li>
-            </ol>
-            <p>Pedi para que escolhessem uma história baseada nessas informações, cronometrei secretamente o tempo até a escolha de uma história e em seguida passei um questionário para avaliar se houve melhoras em relação ao layout anterior.</p>
-            <ol>
-                <li>O tema do livro está claro?</li>
-                <li>A idade apropriada está clara?</li>
-                <li>A duração está clara?</li>
-                <li>As recomendações de amigos estão fáceis de visualizar?</li>
-                <li>Como você avalia a navigabilidade do app?
-                    <br/>(Ótimo, Bom, Regular, Ruim, Péssimo)</li>
-            </ol>
-            <p>Os resultados foram os seguintes:</p>
-        </div>
-        <div class="col-lg-12 secao-texto">
-            <div class="projeto-imagem">
-                <img class="img-80" src="../img/projetos/nightnights/resultados.png" />
+<div class="impar"> 
+    <div class="container">
+        <div class="row projeto justify-content-center">
+            <div class="col-lg-9 col-md-12 col-sm-12 secao-texto">
+                <h4>Criação de wireframes e validação</h4>
+            </div>
+            <div class="col-12">
+                <img class="img-fluid" src="../img/projetos/nightnights/wireframes.png" />
+            </div>
+            <div class="col-lg-9 col-md-12 col-sm-12 secao-texto">
+                <p>Feito os sketches eu criei os wireframes no Figma para validação de fluxo e layout. Esses wireframes foram transformados em um protótipo e enviados para o tablet para validar com usuários se a ideia funcionava ou não.</p>
+                <p>Este teste foi útil para saber se o destaque que eu estava dando para cada informação era o suficiente e se o fluxo fazia sentido para os usuários. Corrigido alguns posicionamentos e tamanho de fonte eu comecei a versão final da interface.</p>
             </div>
         </div>
     </div>
 </div>
 <div class="container">
     <div class="row projeto justify-content-center">
-        <div class="col-lg-9 secao-texto">
+        <div class="col-lg-9 col-md-12 col-sm-12  secao-texto">
+            <h4>User Interface</h4>
+            <p>A interface também foi criada no Figma, como eu já tinha criado a base antes para os wireframes, foi questão de identificar quais eram os elementos que iam se repetir criar símbolos deles para montar o restante das páginas.</p>
+        </div>
+        <div class="col-12">
+            <img class="img-100" src="../img/projetos/nightnights/userinterface2.png" />
+        </div>
+        <div class="col-lg-9 col-md-12 col-sm-12 secao-texto">
+            <p>Por essa não ser uma versão final ainda eu não me preocupei tanto com as imagens e cards dos livros. Fiz o essencial para que eu conseguisse fazer um novo protótipo que não passasse estranhamento para o tester.</p>
+        </div>
+    </div>
+</div>
+<div class="impar">
+    <div class="container">
+        <div class="row projeto justify-content-center">
+            <div class="col-lg-9 col-md-12 col-sm-12 secao-texto">
+                <h4>Testes com usuários</h4>
+                <p>Com esse novo protótipo em mãos fiz 6 testes seguindo o mesmo roteiro com usuários diferentes. Eu entreguei um cartão para cada com informações sobre o filho contendo:</p>
+                <ol>
+                    <li>Idade</li>
+                    <li>Que tipo de história gostaria de ler</li>
+                    <li>O que os amigos tem lido</li>
+                </ol>
+                <p>Pedi para que escolhessem uma história baseada nessas informações, cronometrei secretamente o tempo até a escolha de uma história e em seguida passei um questionário para avaliar se houve melhoras em relação ao layout anterior.</p>
+                <ol>
+                    <li>O tema do livro está claro?</li>
+                    <li>A idade apropriada está clara?</li>
+                    <li>A duração está clara?</li>
+                    <li>As recomendações de amigos estão fáceis de visualizar?</li>
+                    <li>Como você avalia a navigabilidade do app?
+                        <br/>(Ótimo, Bom, Regular, Ruim, Péssimo)</li>
+                </ol>
+                <p>Os resultados foram os seguintes:</p>
+            </div>
+            <div class="col-12 secao-texto">
+                <div class="projeto-imagem">
+                    <img class="img-80" src="../img/projetos/nightnights/resultados.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row projeto justify-content-center">
+        <div class="col-lg-9 col-md-12 col-sm-12 secao-texto">
             <h4>Considerações finais</h4>
             <p>De forma geral o resultado foi positivo.</p>
             <p>O novo layout conseguiu apresentar bem as informações que estavam faltando no começo do experimento mas ainda falta testes usando dados reais do programa para sanar algumas de navegabilidade como:</p>

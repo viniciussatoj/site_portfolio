@@ -49,7 +49,16 @@ html, body {
     text-align: center;
 }
 .header{
-  flex-direction: row-reverse;
+  
+  @media screen and (max-width:576px){
+    flex-direction: column-reverse;
+  }
+  @media screen and (min-width:577px) and (max-width:1023px){
+    flex-direction: column-reverse;
+  }
+  @media screen and (min-width:1024px){
+    flex-direction: row-reverse;
+  }
   .titulo-nome{
     font-size: 4em;
     font-family: 'Libre Baskerville', serif;
@@ -382,7 +391,6 @@ li{
 //#######PROJETO INDIVIDUAL#####//
 .impar{
   background-color: #f6f7fa;
-  padding: 20px 0 20px 0;
 }
 .projeto{
   h1,h2,h3,h4,h5,h6{

@@ -22,6 +22,9 @@ Route::get('/sobre', function () {
 Route::get('/contato', function () {
     return view('paginas.contato');
 });
-Route::get('/projetos/1', function () {
-    return view('paginas.projeto-individual');
+Route::get('/projetos/NighNights', function () {
+    return view('paginas.NighNights');
+});
+Route::get('/projetos/ImobiliariaCanal', function () {
+    return view('paginas.ImobiliariaCanal');
 });
