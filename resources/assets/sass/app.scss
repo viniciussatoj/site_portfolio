@@ -393,6 +393,8 @@ li{
   background-color: #f6f7fa;
 }
 .projeto{
+  font-family: "Nunito", sans-serif;
+  padding-bottom: 2em;
   h1,h2,h3,h4,h5,h6{
     font-family: "Nunito", sans-serif;
     font-weight: 600;
@@ -447,7 +449,10 @@ li{
     text-align: center;
     font-family: "Nunito", sans-serif;
     font-size: 18px;
-    padding: 1em 1.5em 2em 1.5em;
+    padding: 1em 1.5em 0em 1.5em;
+    b{
+      font-weight: 600;
+    }
     .projeto-imagem, .projeto-imagem-esquerda{
       text-align: center;
       img,.img-80{
@@ -458,17 +463,17 @@ li{
       .img-80{
         max-width: 80%;
       }
-      div.legenda-imagem{
-        font-size: 14px;
-        font-weight: 600;
-        color: #a7a7a7;
-        width: 100%;
-        text-align: center;
-      }
     }
     .projeto-imagem-esquerda{
       margin-right: 1em;
     }
+  }
+  .legenda-imagem{
+    font-size: 14px;
+    font-weight: 600;
+    color: #a7a7a7;
+    width: 100%;
+    text-align: center;
   }
   .secao-texto, .secao-texto-dupla{
     text-align: left;

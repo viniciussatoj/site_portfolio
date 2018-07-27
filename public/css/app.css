@@ -9978,6 +9978,11 @@ li a.ribbons:hover {
   background-color: #f6f7fa;
 }
 
+.projeto {
+  font-family: "Nunito", sans-serif;
+  padding-bottom: 2em;
+}
+
 .projeto h1,
 .projeto h2,
 .projeto h3,
@@ -10048,7 +10053,13 @@ li a.ribbons:hover {
   text-align: center;
   font-family: "Nunito", sans-serif;
   font-size: 18px;
-  padding: 1em 1.5em 2em 1.5em;
+  padding: 1em 1.5em 0em 1.5em;
+}
+
+.projeto .secao-explicacao b,
+.projeto .secao-texto b,
+.projeto .secao-texto-dupla b {
+  font-weight: 600;
 }
 
 .projeto .secao-explicacao .projeto-imagem,
@@ -10086,23 +10097,18 @@ li a.ribbons:hover {
   max-width: 80%;
 }
 
-.projeto .secao-explicacao .projeto-imagem div.legenda-imagem,
-.projeto .secao-explicacao .projeto-imagem-esquerda div.legenda-imagem,
-.projeto .secao-texto .projeto-imagem div.legenda-imagem,
-.projeto .secao-texto .projeto-imagem-esquerda div.legenda-imagem,
-.projeto .secao-texto-dupla .projeto-imagem div.legenda-imagem,
-.projeto .secao-texto-dupla .projeto-imagem-esquerda div.legenda-imagem {
+.projeto .secao-explicacao .projeto-imagem-esquerda,
+.projeto .secao-texto .projeto-imagem-esquerda,
+.projeto .secao-texto-dupla .projeto-imagem-esquerda {
+  margin-right: 1em;
+}
+
+.projeto .legenda-imagem {
   font-size: 14px;
   font-weight: 600;
   color: #a7a7a7;
   width: 100%;
   text-align: center;
-}
-
-.projeto .secao-explicacao .projeto-imagem-esquerda,
-.projeto .secao-texto .projeto-imagem-esquerda,
-.projeto .secao-texto-dupla .projeto-imagem-esquerda {
-  margin-right: 1em;
 }
 
 .projeto .secao-texto,
