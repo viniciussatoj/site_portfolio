@@ -11,7 +11,7 @@
             </div>
             <div class="row">
                 <div class="col-12 projeto-titulo">
-                    <h1>Imobiliária Canal - Aplicação de metodologias de UX e Design Thinking</h1>
+                    <h1>Decorei</h1>
                 </div>
             </div>
             <div class="row">
@@ -64,7 +64,7 @@
             <p>Eu descobri que: </p>
             <ul>
                 <li>Seu público principal de locação eram estudantes universitários que alugavam casa durante os anos que estudam em Bauru.</li>
-                <li>A Imobiliária Canal tem dois braços principais. Um cuida de administração de condomínios e outro de locação e venda de imóveis</li>
+                <li>A Imobliária Canal tem dois braços principais. Um cuida de administração de condomínios e outro de locação e venda de imóveis</li>
                 <li>Eles se preocupam que a imobiliária está sobrecarregando o gerente administrativo.</li>
                 <li>Eles acreditam que o site desatualizado é o principal motivo de não estarem conseguindo mais clientes.</li>
                 <li>Eles esperavam que esse projeto desse uma base para a criação de um site novo, mas estavam abertos a outras ideias.</li>

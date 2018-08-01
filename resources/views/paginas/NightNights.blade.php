@@ -39,7 +39,7 @@
     <div class="container">
         <div class="row projeto justify-content-center">
             <div class="col-lg-9 col-md-12 col-sm-12 secao-explicacao">
-                <h4>Como era</h4>
+                <h3>Como era</h3>
                 <p>Sendo um protótipo, o app estava bem cru em questões de navegação, não havia como procurar temas, histórias específicas, autores, nada. Tudo o que o usuário poderia fazer é escolher uma história e torcer para que fosse boa.<br />O desafio então era melhorar a navegação no nosso app.</p>
                 <div class="projeto-imagem">
                     <img class="img-80" src="../img/projetos/nightnights/Mini.png" />
@@ -52,7 +52,7 @@
 <div class="container">
     <div class="row projeto justify-content-center">
         <div class="col-lg-9 col-md-12 col-sm-12 secao-texto">
-            <h4>Feedback de usuários</h4>
+            <h3>Feedback de usuários</h3>
             <h5>Impressão dos usuários</h5>
             <p>Foi perguntado aos usuários como eles usavam o app e chegamos em alguns feedbacks interessantes:</p>
             <div class="citacao">
@@ -89,7 +89,7 @@ Os dados dessa pesquisa foram usados posteriormente como referência de importâ
     <div class="container">
         <div class="row projeto justify-content-center">
             <div class="col-lg-9 col-md-12 col-sm-12  secao-texto">
-                <h4>Definição de soluções</h4>
+                <h3>Definição de soluções</h3>
                 <h5>How Might We</h5>
                 <p>O próximo passo foi utilizar o processo “How Might We” para pensar em soluções para os problemas encontrados. Aqui eu tentei considerar as soluções em uma escala de possibilidade de implementação para determinar quais seriam utilizadas nessa iteração do app.</p>
                 <div class="projeto-imagem">
@@ -103,7 +103,7 @@ Os dados dessa pesquisa foram usados posteriormente como referência de importâ
 <div class="container">
     <div class="row projeto justify-content-center">
         <div class="col-lg-9 col-md-12 col-sm-12 secao-texto">
-            <h4>Sketch</h4>
+            <h3>Sketch</h3>
             <p>Com base nas ideias propostas foram feitos os sketches para a UI.</p>
             <p>Uma grande inspiração da interface do NightNights foi a Netflix, a sua interface que incentiva a descoberta de novos títulos com sugestões e agrupamentos caiu como uma luva para o projeto.</p>
             <div class="projeto-imagem">
@@ -128,7 +128,7 @@ Os dados dessa pesquisa foram usados posteriormente como referência de importâ
     <div class="container">
         <div class="row projeto justify-content-center">
             <div class="col-lg-9 col-md-12 col-sm-12 secao-texto">
-                <h4>Criação de wireframes e validação</h4>
+                <h3>Criação de wireframes e validação</h3>
             </div>
             <div class="col-12">
                 <img class="img-fluid" src="../img/projetos/nightnights/wireframes.png" />
@@ -143,7 +143,7 @@ Os dados dessa pesquisa foram usados posteriormente como referência de importâ
 <div class="container">
     <div class="row projeto justify-content-center">
         <div class="col-lg-9 col-md-12 col-sm-12  secao-texto">
-            <h4>User Interface</h4>
+            <h3>User Interface</h3>
             <p>A interface também foi criada no Figma, como eu já tinha criado a base antes para os wireframes, foi questão de identificar quais eram os elementos que iam se repetir criar símbolos deles para montar o restante das páginas.</p>
         </div>
         <div class="col-12">
@@ -158,7 +158,7 @@ Os dados dessa pesquisa foram usados posteriormente como referência de importâ
     <div class="container">
         <div class="row projeto justify-content-center">
             <div class="col-lg-9 col-md-12 col-sm-12 secao-texto">
-                <h4>Testes com usuários</h4>
+                <h3>Testes com usuários</h3>
                 <p>Com esse novo protótipo em mãos fiz 6 testes seguindo o mesmo roteiro com usuários diferentes. Eu entreguei um cartão para cada com informações sobre o filho contendo:</p>
                 <ol>
                     <li>Idade</li>
@@ -175,10 +175,8 @@ Os dados dessa pesquisa foram usados posteriormente como referência de importâ
                         <br/>(Ótimo, Bom, Regular, Ruim, Péssimo)</li>
                 </ol>
                 <p>Os resultados foram os seguintes:</p>
-            </div>
-            <div class="col-12 secao-texto">
                 <div class="projeto-imagem">
-                    <img class="img-80" src="../img/projetos/nightnights/resultados.png" />
+                    <img class="img-100" src="../img/projetos/nightnights/resultados.png" />
                 </div>
             </div>
         </div>
@@ -187,7 +185,7 @@ Os dados dessa pesquisa foram usados posteriormente como referência de importâ
 <div class="container">
     <div class="row projeto justify-content-center">
         <div class="col-lg-9 col-md-12 col-sm-12 secao-texto">
-            <h4>Considerações finais</h4>
+            <h3>Considerações finais</h3>
             <p>De forma geral o resultado foi positivo.</p>
             <p>O novo layout conseguiu apresentar bem as informações que estavam faltando no começo do experimento mas ainda falta testes usando dados reais do programa para sanar algumas de navegabilidade como:</p>
             <ol>

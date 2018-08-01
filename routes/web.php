@@ -22,9 +22,12 @@ Route::get('/sobre', function () {
 Route::get('/contato', function () {
     return view('paginas.contato');
 });
-Route::get('/projetos/NighNights', function () {
-    return view('paginas.NighNights');
+Route::get('/projetos/NightNights', function () {
+    return view('paginas.NightNights');
 });
 Route::get('/projetos/ImobiliariaCanal', function () {
     return view('paginas.ImobiliariaCanal');
+});
+Route::get('/projetos/decorei', function () {
+    return view('paginas.Decorei');
 });

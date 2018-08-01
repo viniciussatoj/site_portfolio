@@ -9574,13 +9574,14 @@ body {
 .header .titulo-nome {
   font-size: 4em;
   font-family: 'Libre Baskerville', serif;
-  margin: 0.3em 0 0 0;
+  margin: 1em 0 0 0;
 }
 
 .header .titulo-profissao {
   font-size: 1.2em;
   font-family: 'Libre Baskerville', serif;
-  margin: 1em 0 0 0;
+  display: inline-block;
+  margin: 0.6em 0 0 0;
   color: #dee2e6;
 }
 
@@ -9593,8 +9594,10 @@ body {
   font-size: 70%;
 }
 
-.header .menu {
-  margin-bottom: 1em;
+@media screen and (max-width: 1023px) {
+  .header .menu {
+    margin-top: 1em;
+  }
 }
 
 .header .menu ul {
@@ -9618,9 +9621,10 @@ body {
 
 .titulo-descricao {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
   font-family: 'Libre Baskerville', serif;
-  margin: 1em 0 30px 0;
+  margin: 1.5em 1em 2em 1em;
+  text-align: center;
   line-height: 120%;
   color: #343a40;
 }
@@ -9678,14 +9682,14 @@ body {
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
   .image-grid__item {
-    width: 45%;
+    width: 100%;
     margin-bottom: 1em;
   }
 }
 
 @media screen and (min-width: 769px) {
   .image-grid__item {
-    width: 30%;
+    width: 45%;
     margin-bottom: 1.5em;
   }
 }
@@ -9833,8 +9837,6 @@ body {
   overflow: hidden;
   vertical-align: middle;
   border: 1px solid transparent;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
   /*&::after {
     z-index:-2;
     right:0;
@@ -9992,6 +9994,7 @@ li a.ribbons:hover {
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   color: #3e75ff;
+  margin: 0 0 1em 0;
 }
 
 .projeto .projeto-titulo h1 {
@@ -10038,9 +10041,10 @@ li a.ribbons:hover {
   margin: 0em 0 0 0;
 }
 
-.projeto .projeto-destaque .projeto-descricao h4 {
+.projeto .projeto-destaque .projeto-descricao h3 {
   font-weight: 600;
   color: #3e75ff;
+  margin: 0 0 0.6em 0;
 }
 
 .projeto .projeto-destaque .divisor-linha {
@@ -10053,7 +10057,8 @@ li a.ribbons:hover {
   text-align: center;
   font-family: "Nunito", sans-serif;
   font-size: 18px;
-  padding: 1em 1.5em 0em 1.5em;
+  padding: 2em 1.5em 0em 1.5em;
+  line-height: 1.67;
 }
 
 .projeto .secao-explicacao b,
