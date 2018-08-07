@@ -11,24 +11,24 @@
             </div>
             <div class="row">
                 <div class="col-12 projeto-titulo">
-                    <h1>Decorei</h1>
+                    <h1>Decorei - Dashboard de gerenciamento de projetos</h1>
                 </div>
             </div>
             <div class="row">
                 <div class="col-4 projeto-dados">
                     <div class="dados">
-                        <span class="tipo">Data: </span><p>Junho, 2018</p>
+                        <span class="tipo">Data: </span><p>Julho, 2018</p>
                     </div>
                     <div class="dados">
-                        <span class="tipo">Plataforma: </span><p>Desktop, Organizacional</p>
+                        <span class="tipo">Plataforma: </span><p>Desktop, Tablet</p>
                     </div>
                     <div class="dados">
-                        <span class="tipo">Ferramentas: </span><p>Design Thinking, Fluxogramas, Entrevistas, Pesquisa Etnográfica</p>
+                        <span class="tipo">Ferramentas: </span><p>Ideação, Fluxogramas, Fluxo de usuário, User Interface, Pesquisa de similares</p>
                     </div>
                 </div>
                 <div class="col-8 projeto-descricao">
                     <h3>Desafio</h3>
-                    Foi realizada uma pesquisa de contexto e cenário na Imobiliária Canal onde foi identificado um problema de comunicação no setor administrativo. Foram feitas modificações no seu fluxo de trabalho para melhorar eficiência, trazer transparência ao setor e padronização dos processos.
+                    <p>Criar um dashboard que permita que o CEO da empresa visualize todos os projetos sendo desenvolvidos, o estado do projeto, o responsável do projeto e a equipe disponível.</p>
                 </div>
             </div>
             <div class="divisor-linha"></div>
@@ -38,9 +38,21 @@
 <div class="impar">
     <div class="container">
         <div class="row projeto justify-content-center">
-            <div class="col-lg-9 col-md-12 col-sm-12 secao-explicacao">
-                <h4>Situação inicial</h4>
-                <p>A imobiliária Canal tem cerca de 10 anos de atuação no mercado bauruense. Tendo experimentado em primeira mão a queda dos classificados de jornal e ascenção da internet na geração de novos leads, os proprietários Valdir e Rosemeire Canal sabem a importância de se manter atualizados e pensavam em criar um site novo para substituir o seu que já tinha quase 8 anos. </p>
+            <div class="col-lg-9 col-md-12 col-sm-12 secao-texto">
+                <h4>Briefing</h4>
+                <p>A CEO da Decorei tem dificuldade para visualizar todos os projetos que a empresa possui, em qual fase eles estão, qual é a equipe que está executando e qual seu seu prazo de conclusão.</p>
+                <p>A empresa está desenvolvendo 30 projetos atualmente, cada um com seu encarregado e sua própria equipe de arquitetos e ter conheicmento de todos tem se mostrado um desafio.</p>
+                <p>Existem dois problemas em particular que a empresa pretende resolver com esse dashboard:</p>
+                <ol>
+                    <li>
+                        <b>Alocação de equipes</b><br />
+                        <p>Ela não não sabe ao certo em quantos projetos ao mesmo tempo uma pessoa está trabalhando, o que acarreta em má distribuição do volume de trabalho;</p>
+                    </li>
+                    <li>
+                        <b>Gestão dos prazos do projeto</b><br />
+                        <p>Não consegue saber se o projeto está atrasado ou não sem perguntar para alguém.</p>
+                    </li>
+                </ol>
             </div>
             <div class="col-12">
                 <div class="projeto-imagem">
@@ -48,28 +60,18 @@
                     <div class="legenda-imagem" >O app veio praticamente sem maneira de navegar entre as histórias apresentadas.</div>
                 </div>
             </div>
-            <div class="col-lg-9 col-md-12 col-sm-12 secao-explicacao">
-                <p> Eu sugeri então que fizéssemos um estudo de contexto para entender os problemas e necessidades de imobiliária e se o problema fosse realmente o site, nós teríamos uma base melhor para a criação do mesmo.</p>
-            </div>
         </div>
     </div>
 </div>
 <div class="container">
     <div class="row projeto justify-content-center">
         <div class="col-lg-9 col-md-12 col-sm-12 secao-texto">
-            <h4>Formulando o briefing</h4>
-            <h5>O que é UX</h5>
-            <p>Minha primeira preocupação com o projeto era que os proprietários ainda não eram familiarizados com UX e somente tinham ouvido falar de Design Thinking mas não sabiam do que se tratava. Eu precisava então de uma reunião par alinhamento de expectativas.</p>
-            <p>Fiz uma pesquisa simples sobre o funcionamento de uma imobiliária e preparei uma apresentação explicando ambos e como eles poderiam ser aplicados no seu contexto empresarial. Em seguida propus que eles contassem sobre a imobiliária. Como ela funciona, qual a visão deles e quais resultados eles esperavam para este projeto.</p>
-            <p>Eu descobri que: </p>
-            <ul>
-                <li>Seu público principal de locação eram estudantes universitários que alugavam casa durante os anos que estudam em Bauru.</li>
-                <li>A Imobliária Canal tem dois braços principais. Um cuida de administração de condomínios e outro de locação e venda de imóveis</li>
-                <li>Eles se preocupam que a imobiliária está sobrecarregando o gerente administrativo.</li>
-                <li>Eles acreditam que o site desatualizado é o principal motivo de não estarem conseguindo mais clientes.</li>
-                <li>Eles esperavam que esse projeto desse uma base para a criação de um site novo, mas estavam abertos a outras ideias.</li>
-            </ul>
-            <p>Mas uma reunião somente era muito pouco para entender o funcionamento da imobiliária e quais eram os requerimento de um site novo. Eu sugeri então que fizéssemos uma pesquisa interna primeiro e para com mais informação em mãos decidíssemos qual caminho de desenvolvimento o projeto deveria tomar.</p>
+            <h4>Arquitetura de Informação</h4>
+            <p>Meu primeiro passo foi estuturar a relação entre projetos, arquitetos e líderes de projeto para entender quais dados são relevantes para serem exibidos e como eles se apoiam. Nessa etapa teoria dos conjuntos me foi muito útil para estabeler essa relação.</p>
+            <p>Como era relativamente simples eu usei papel e caneta mesmo e cheguei nesse esquema:</p>
+            <p>O segundo passo foi definir um escopo das informações apresentadas. Um dashboard deve funcionar como um overview da situação, mostrar mais informação que o necessário só atrapalha o discernimento do que é realmente importante.</p>
+            <p>Como equipes são organizações efêmeras decidi que não seria necessário uma seção específica para elas já que não é necessário um ihstórico de performances de uma equipe uma vez que raramente elas se organizariam no mesmo padrão.</p>
+            <p>A posição de destaque ficaria então com os projetos e secundária para os funcionários.</p>
         </div>
         <div class="col-lg-9 col-md-12 col-sm-12 secao-texto">
             <h5>Plano de pesquisa</h5>
