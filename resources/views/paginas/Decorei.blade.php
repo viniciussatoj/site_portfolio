@@ -49,7 +49,7 @@
                 <ol>
                     <li>
                         <b>Alocação de equipes</b><br />
-                        <p>Ela não não sabe ao certo em quantos projetos ao mesmo tempo uma pessoa está trabalhando, o que acarreta em má distribuição do volume de trabalho;</p>
+                        <p>Não não sabe ao certo em quantos projetos ao mesmo tempo uma pessoa está trabalhando, o que acarreta em má distribuição do volume de trabalho;</p>
                     </li>
                     <li>
                         <b>Gestão dos prazos do projeto</b><br />
