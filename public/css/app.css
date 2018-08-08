@@ -10074,6 +10074,7 @@ li a.ribbons:hover {
 .projeto .secao-texto-dupla .projeto-imagem,
 .projeto .secao-texto-dupla .projeto-imagem-esquerda {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .projeto .secao-explicacao .projeto-imagem img,

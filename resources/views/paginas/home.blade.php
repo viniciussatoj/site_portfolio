@@ -15,9 +15,7 @@
                     </li>
                     <li class="image-grid__item">
                         <a class="grid-item" href="/projetos/decorei">
-                        <div class="grid-item__image" style="background-image: url(https://media.timeout.com/images/101602611/image.jpg)"></div>
-                        <div class="grid-item__hover"></div>
-                        <div class="grid-item__name">Los Angeles</div>
+                        <div class="grid-item__image" style="background-image: url(../img/projetos/decorei/thumbnail_decorei.png)"></div>
                         </a>
                     </li>
                     <li class="image-grid__item">
