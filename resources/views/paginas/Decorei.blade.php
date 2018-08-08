@@ -6,7 +6,7 @@
         <div class="col-lg-9 col-md-9 col-sm-12 projeto-destaque">
             <div class="row">
                 <div class="col-12 destaque-principal">
-                    <img class="mx-auto" src="../img/projetos/decorei/header-decorei.jpg" />
+                    <img class="mx-auto" src="../img/projetos/decorei/header_decorei.jpg" />
                 </div>
             </div>
             <div class="row">
@@ -49,7 +49,7 @@
                 <ol>
                     <li>
                         <b>Alocação de equipes</b><br />
-                        <p>Não não sabe ao certo em quantos projetos ao mesmo tempo uma pessoa está trabalhando, o que acarreta em má distribuição do volume de trabalho;</p>
+                        <p>Ela não não sabe ao certo em quantos projetos ao mesmo tempo uma pessoa está trabalhando, o que acarreta em má distribuição do volume de trabalho;</p>
                     </li>
                     <li>
                         <b>Gestão dos prazos do projeto</b><br />
@@ -68,7 +68,7 @@
             <p>Como era relativamente simples eu usei papel e caneta mesmo e cheguei nesse esquema:</p>
             <div class="col-12">
                 <div class="projeto-imagem">
-                    <img class="img-100" src="../img/projetos/decorei/ai.jpg" />
+                    <img class="img-100" src="../img/projetos/decorei/ai2.jpg" />
                 </div>
             </div>
             <p>O segundo passo foi definir um escopo das informações apresentadas. Um dashboard deve funcionar como um overview da situação, mostrar mais informação que o necessário só atrapalha o discernimento do que é realmente importante.</p>
