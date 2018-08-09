@@ -68,7 +68,7 @@
             <p>Como era relativamente simples eu usei papel e caneta mesmo e cheguei nesse esquema:</p>
             <div class="col-12">
                 <div class="projeto-imagem">
-                    <img class="img-100" src="{{ URL::to('/') }}/img/projetos/decorei/ai.png" />
+                    <img class="img-100" src="{{ URL::to('/') }}/img/projetos/decorei/arquitetura.jpg" />
                 </div>
             </div>
             <p>O segundo passo foi definir um escopo das informações apresentadas. Um dashboard deve funcionar como um overview da situação, mostrar mais informação que o necessário só atrapalha o discernimento do que é realmente importante.</p>
