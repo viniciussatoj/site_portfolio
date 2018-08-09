@@ -6,7 +6,7 @@
         <div class="col-lg-9 col-md-9 col-sm-12 projeto-destaque">
             <div class="row">
                 <div class="col-12 destaque-principal">
-                    <img class="mx-auto" src="../img/projetos/decorei/header_decorei.jpg" />
+                    <img class="mx-auto" src="{{public_path()}}/img/projetos/decorei/header_decorei.jpg" />
                 </div>
             </div>
             <div class="row">
@@ -68,14 +68,14 @@
             <p>Como era relativamente simples eu usei papel e caneta mesmo e cheguei nesse esquema:</p>
             <div class="col-12">
                 <div class="projeto-imagem">
-                    <img class="img-100" src="../img/projetos/decorei/ai2.jpg" />
+                    <img class="img-100" src="{{public_path()}}/img/projetos/decorei/ai2.jpg" />
                 </div>
             </div>
             <p>O segundo passo foi definir um escopo das informações apresentadas. Um dashboard deve funcionar como um overview da situação, mostrar mais informação que o necessário só atrapalha o discernimento do que é realmente importante.</p>
             <p>Como equipes são organizações efêmeras decidi que não seria necessário uma seção específica para elas já que não é necessário um ihstórico de performances de uma equipe uma vez que raramente elas se organizariam no mesmo padrão.</p>
             <div class="col-12">
                 <div class="projeto-imagem">
-                    <img class="img-100" src="../img/projetos/decorei/timeline.jpg" />
+                    <img class="img-100" src="{{public_path()}}/img/projetos/decorei/timeline.jpg" />
                 </div>
             </div>
             <p>A posição de destaque ficaria então com os projetos e secundária para os funcionários.</p>
@@ -96,12 +96,12 @@
         <div class="row projeto justify-content-center">
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="projeto-imagem">
-                    <img class="img-100" src="../img/projetos/decorei/elementos.jpg" />
+                    <img class="img-100" src="{{public_path()}}/img/projetos/decorei/elementos.jpg" />
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="projeto-imagem">
-                    <img class="img-100" src="../img/projetos/decorei/elementos-2.jpg" />
+                    <img class="img-100" src="{{public_path()}}/img/projetos/decorei/elementos-2.jpg" />
                 </div>
             </div>
         </div>
@@ -114,14 +114,14 @@
             <p>Os primeiros protótipos eu fiz em grayscale para manter o foco na diagramação da página e testar quais soluções funcionavam.</p>
             <div class="col-12">
                 <div class="projeto-imagem">
-                    <img class="img-100" src="../img/projetos/decorei/grayscale.png" />
+                    <img class="img-100" src="{{public_path()}}/img/projetos/decorei/grayscale.png" />
                 </div>
             </div>
             <p>Nessa fase de prototipação eu mudei muito do que eu esperava que fosse a versão final conforme eu fui percebendo algumas funções extras que eu poderia utiilizar ou necessidades que não estavam sendo atendidas.</p>
             <p>O protótipo foi desenvolvido usando símbolos para economizar tempo na versão final. Eu só atualizei os símbolos gradativamente até se tornar o prtótipo de alta fidelidade evitando retrabalho.</p>
             <div class="col-12">
                 <div class="projeto-imagem">
-                    <img class="img-100" src="../img/projetos/decorei/grayscale-final.png" />
+                    <img class="img-100" src="{{public_path()}}/img/projetos/decorei/grayscale-final.png" />
                 </div>
             </div>
         </div>
@@ -136,29 +136,29 @@
                 <p>O protótipo ficou dessa forma:</p>
             </div>
             <div class="col-12">
-                <img class="img-100" src="../img/projetos/decorei/projeto_final.png" />
+                <img class="img-100" src="{{public_path()}}/img/projetos/decorei/projeto_final.png" />
             </div>
             <div class="col-lg-9 col-md-12 col-sm-12 secao-texto">
                 <p>Eu separei os projetos de acordo com a fase que eles se encontram com o prazo e avatar do gerente de projeto em destaque. Cada fase está organizada por ordem de entrega e os projetos com prazo vencido em destaque vermelho no topo.<br/>
                 Também deixei um campo de busca no canto superior para ajudar a navegação. Com 30 projetos é simples encontrar o que se quer mas conforme esse número crescer ficará cada vez mais trabalhoso.</p>
                 <div class="col-12">
-                    <img class="img-100" src="../img/projetos/decorei/projetos.png" />
+                    <img class="img-100" src="{{public_path()}}/img/projetos/decorei/projetos.png" />
                 </div>
                 <p>Ao deixar em hover em um card, ele vai mostrar uma prévia do projeto sem precisar abrir a página individual do mesmo.</p>
                 <p>Em cada card de projeto eu deixei um ícone para "pinar" o projeto e compará-los. Ao pinar um projeto ele vai abrir uma seção extra com mais detalhes como prazos de entrega, coordenador de projeto, equipe e empresa contratante.</p>
                 <div class="col-12">
-                    <img class="img-100" src="../img/projetos/decorei/pinados.png" />
+                    <img class="img-100" src="{{public_path()}}/img/projetos/decorei/pinados.png" />
                 </div>
             </div>
             <div class="col-lg-9 col-md-12 col-sm-12 secao-texto">
                 <h5>Funcionários</h5>
                 <p>Para os funcionários eu julguei que o mais importante para a gerência fosse a quantidade de projetos que cada um está desenvolvendo e o cargo de cada um.</p>
                 <div class="col-12">
-                    <img class="img-100" src="../img/projetos/decorei/funcionarios.png" />
+                    <img class="img-100" src="{{public_path()}}/img/projetos/decorei/funcionarios.png" />
                 </div>
                 <p>Dividi eles por quantidade de projetos e organizei por order de hierarquia para tornar mais fácil a visualização. No hover o dashboard apresenta um pop-up com os projetos ativos do funcionário e e seus prazos de entrega.</p>
                 <div class="col-12">
-                    <img class="img-100" src="../img/projetos/decorei/funcionario_hover.png" />
+                    <img class="img-100" src="{{public_path()}}/img/projetos/decorei/funcionario_hover.png" />
                 </div>
             </div>
         </div>
