@@ -6,7 +6,7 @@
         <div class="col-lg-9 col-md-9 col-sm-12 projeto-destaque">
             <div class="row">
                 <div class="col-12 destaque-principal">
-                    <img class="mx-auto" src="{{ URL::to('/') }}/img/projetos/decorei/header_decorei.jpg" />
+                    <img class="mx-auto" src="{{ URL::to('/') }}/img/projetos/decorei/Decorei-capa.png" />
                 </div>
             </div>
             <div class="row">
@@ -68,7 +68,7 @@
             <p>Como era relativamente simples eu usei papel e caneta mesmo e cheguei nesse esquema:</p>
             <div class="col-12">
                 <div class="projeto-imagem">
-                    <img class="img-100" src="{{ URL::to('/') }}/img/projetos/decorei/ai2.jpg" />
+                    <img class="img-100" src="{{ URL::to('/') }}/img/projetos/decorei/ai.png" />
                 </div>
             </div>
             <p>O segundo passo foi definir um escopo das informações apresentadas. Um dashboard deve funcionar como um overview da situação, mostrar mais informação que o necessário só atrapalha o discernimento do que é realmente importante.</p>
