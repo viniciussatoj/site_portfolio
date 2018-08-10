@@ -45,7 +45,6 @@
             <div class="col-12">
                 <div class="projeto-imagem">
                     <img class="img-100" src="../img/projetos/imobiliaria_canal/site_canal.png" />
-                    <div class="legenda-imagem" >O app veio praticamente sem maneira de navegar entre as histórias apresentadas.</div>
                 </div>
             </div>
             <div class="col-lg-9 col-md-12 col-sm-12 secao-explicacao">

@@ -31,3 +31,6 @@ Route::get('/projetos/ImobiliariaCanal', function () {
 Route::get('/projetos/decorei', function () {
     return view('paginas.Decorei');
 });
+Route::get('/projetos/chatbot', function () {
+    return view('paginas.chatbot');
+});
