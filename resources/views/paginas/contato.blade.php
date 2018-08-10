@@ -7,9 +7,8 @@
                 <div class="divisor-linha"></div>
                 <span class="email">vinicius.satoj@gmail.com</span>
                 <div class="redes-sociais">
-                    <img src="img/linkedin.svg" />
-                    <img src="img/behance.svg" />
-                    <img src="img/medium.svg" />
+                    <a href="https://www.linkedin.com/in/vinicius-satoj/"><img src="img/linkedin.svg" /></a>
+                    <a href="https://medium.com/@vinicius.satoj"><img src="img/medium.svg" />
                 </div>
             </div>
         </div>
