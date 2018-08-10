@@ -6,7 +6,7 @@
         <div class="col-lg-9 col-md-9 col-sm-12 projeto-destaque">
             <div class="row">
                 <div class="col-12 destaque-principal">
-                    <img class="mx-auto" src="../img/projetos/chatbot/prototipo_chatbot.png" />
+                    <img class="mx-auto" src="{{ URL::to('/') }}/img/projetos/chatbot/prototipo_chatbot.png" />
                 </div>
             </div>
             <div class="row">
@@ -57,7 +57,7 @@
             <p>Comecei pesquisando no Medium e outros artigos qual era a situação do uso de chatbots atualmente e empresas que usam chatbot. Testei alguns para usar de referência e fiz algumas anotações de como eles usavam os componentes. Como eu não fazia ideia de como se criava um fluxo conversacional eu perguntei em alguns grupos que eu faço parte para conseguir algum norte. Levei de 3 a 4 horas nessa etapa.</p>
             <p>O próximo passo era criar um restaurante, público alvo, etc para o exercício. Ao invés disso eu fui em um restaurante que fica perto de casa, o Bentoya, e pedi para que me ajudassem com a pesquisa e se me permitiam usar o restaurante deles como modelo. E eles aceitaram em me ajudar.</p>
                 <div class="projeto-imagem">
-                    <img class="img-100" src="../img/projetos/chatbot/bentoya.png" />
+                    <img class="img-100" src="{{ URL::to('/') }}/img/projetos/chatbot/bentoya.png" />
                 </div>
             <p>Pelo que eu tinha observado nos outros chatbots, a estrutura de conversação era semelhante a quando fazemos pedido por telefone. Então eu fui no bentoya na hora do almoço para observar como era essa interação deles. O que os clientes buscavam, qual a ordem que normalmente pediam os pratos, as variáveis de entrega como distância e como os cliente eram atendidos. </p>
             <p>Aguardei o horário de pico terminar e fiz uma entrevista com a dona. Com essas informações eu montei uma ficha do restaurante e personas dos seus clientes.</p>
@@ -84,12 +84,12 @@
                 <h5>Personas</h5>
                 <div class="col-lg-9 col-md-12 col-sm-12">
                     <div class="projeto-imagem">
-                        <img class="img-100" src="../img/projetos/chatbot/persona1.png" />
+                        <img class="img-100" src="{{ URL::to('/') }}/img/projetos/chatbot/persona1.png" />
                     </div>
                 </div>
                 <div class="col-lg-9 col-md-12 col-sm-12">
                     <div class="projeto-imagem">
-                        <img class="img-100" src="../img/projetos/chatbot/persona2.png" />
+                        <img class="img-100" src="{{ URL::to('/') }}/img/projetos/chatbot/persona2.png" />
                     </div>
                 </div>
             </div>
@@ -104,7 +104,7 @@
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12">
             <div class="projeto-imagem">
-                <img class="img-100" src="../img/projetos/chatbot/fluxo_inicial.jpg" />
+                <img class="img-100" src="{{ URL::to('/') }}/img/projetos/chatbot/fluxo_inicial.jpg" />
             </div>
         </div>
         <div class="col-lg-9 col-md-12 col-sm-12 secao-texto">
@@ -123,13 +123,13 @@
         </div>
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <img class="img-100" src="../img/projetos/chatbot/sketch1.jpg" />
+                <img class="img-100" src="{{ URL::to('/') }}/img/projetos/chatbot/sketch1.jpg" />
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <img class="img-100" src="../img/projetos/chatbot/sketch2.jpg" />
+                <img class="img-100" src="{{ URL::to('/') }}/img/projetos/chatbot/sketch2.jpg" />
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <img class="img-100" src="../img/projetos/chatbot/sketch3.jpg" />
+                <img class="img-100" src="{{ URL::to('/') }}/img/projetos/chatbot/sketch3.jpg" />
             </div>
         </div>
         <div class="row projeto justify-content-center">
@@ -146,7 +146,7 @@
             <p>Com a experiência do sketch anterior eu projetei o fluxograma oficial do chatbot. Tentei usar várias ferramentas de fluxograma recomendadas para chatbots como Gliffy, xMind, botMock mas como eu não tinha familiaridade com elas, estavam mais me atrasando que ajudando. Voltei para o draw.io e comecei a criar o fluxograma que eventualmente virou isso:</p>
         </div>
         <div class="col-12">
-            <img class="img-100" src="../img/projetos/chatbot/Chatbot-Meshi.png" />
+            <img class="img-100" src="{{ URL::to('/') }}/img/projetos/chatbot/Chatbot-Meshi.png" />
         </div>
         <div class="col-lg-9 col-md-12 col-sm-12 secao-texto">
             <p>Eu não usei palavras gatilho para pular para seções diferentes do fluxo por não saber as limitações da ferramenta de prototipação. Nessa etapa eu ainda não me preocupei com a persona do chatbot, meu foco estava em validar o fluxo.</p>
@@ -163,7 +163,7 @@
                     A persona do chatbot ficou assim:
                 </p>
                 <div class="projeto-imagem">
-                    <img class="img-100" src="../img/projetos/chatbot/personabot.png" />
+                    <img class="img-100" src="{{ URL::to('/') }}/img/projetos/chatbot/personabot.png" />
                 </div>
                 <p>
                     O protótipo inicialmente seria montado no Figma mas não não estava funcionando como teste de usabilidade. Faltava interação e não fazia sentido um protótipo de chatbot em que o usuário não usa texto.
@@ -172,11 +172,11 @@
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12  secao-texto">
                 <div class="projeto-imagem">
-                    <img class="img-100" src="../img/projetos/chatbot/prototipo_chatbot.png" />
+                    <img class="img-100" src="{{ URL::to('/') }}/img/projetos/chatbot/prototipo_chatbot.png" />
                 </div>
                 <p>Fiz a página do facebook <b><a href="https://www.facebook.com/Okawari-2029434220420978">“Okawari”</a></b> e montei um protótipo interagível do chatbot que pode ser acessado nesse <b><a href="http://m.me/2029434220420978">link.</b></a></p>
                 <div class="projeto-imagem">
-                    <img src="../img/projetos/chatbot/chatbot-messenger.png" />
+                    <img src="{{ URL::to('/') }}/img/projetos/chatbot/chatbot-messenger.png" />
                 </div>
             </div>
         </div>
