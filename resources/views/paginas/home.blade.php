@@ -10,7 +10,7 @@
                     </li>
                     <li class="image-grid__item">
                         <a class="grid-item" href="/projetos/ImobiliariaCanal">
-                        <div class="grid-item__image" style="background-image: url({{ URL::to('/') }}/img/projetos/imobiliaria_canal/thumbnail_ImobiliariaCanal.png)"></div>
+                        <div class="grid-item__image" style="background-image: url({{ URL::to('/') }}/img/projetos/imobiliaria_canal/thumbnail_ImobiliariaCanal2.png)"></div>
                         </a>
                     </li>
                     <li class="image-grid__item">
