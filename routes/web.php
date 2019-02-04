@@ -34,3 +34,6 @@ Route::get('/projetos/decorei', function () {
 Route::get('/projetos/chatbot', function () {
     return view('paginas.chatbot');
 });
+Route::get('/projetos/netshoes', function () {
+    return view('paginas.netshoes');
+});

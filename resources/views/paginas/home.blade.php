@@ -23,6 +23,11 @@
                         <div class="grid-item__image" style="background-image: url({{ URL::to('/') }}/img/projetos/chatbot/thumbnail-chatbot.png)"></div>
                         </a>
                     </li>
+                    <li class="image-grid__item">
+                        <a class="grid-item" href="/projetos/netshoes">
+                        <div class="grid-item__image" style="background-image: url({{ URL::to('/') }}/img/projetos/netshoes/thumbnail_netshoes.jpg)"></div>
+                        </a>
+                    </li>
                     
                 </ul>
         </div>
