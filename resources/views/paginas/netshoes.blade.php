@@ -54,8 +54,8 @@
         </div>
         <div class="col-12">
             <div class="projeto-imagem">
-                <img class="img-100" src="../img/projetos/netshoes/carrinho_original.png" />
-                <div class="legenda-imagem" >O app veio praticamente sem maneira de navegar entre as histórias apresentadas.</div>
+                <img class="img-100" src="../img/projetos/netshoes/carrinho_original.jpg" />
+                <div class="legenda-imagem" >O carrinho não apresentava um caminho fácil para completar a promoção.</div>
             </div>
         </div>
         <div class="col-lg-9 col-md-12 col-sm-12 secao-texto">
@@ -74,8 +74,8 @@
             </div>
             <div class="col-12">
                 <div class="projeto-imagem">
-                    <img class="img-100" src="../img/projetos/netshoes/problemas_layout.jpg" />
-                    <div class="legenda-imagem" >O app veio praticamente sem maneira de navegar entre as histórias apresentadas.</div>
+                    <img class="img-100" src="../img/projetos/netshoes/problemas_layout.png" />
+                    <div class="legenda-imagem" >O principal problema é uma falta de clareza de informação.</div>
                 </div>
             </div>
         </div>
@@ -91,7 +91,7 @@
         <div class="col-12">
             <div class="projeto-imagem">
                 <img class="img-100" src="../img/projetos/netshoes/Desktop_modificacao_incompleto2.jpg" />
-                <div class="legenda-imagem" >O app veio praticamente sem maneira de navegar entre as histórias apresentadas.</div>
+                <div class="legenda-imagem" >Uma preocupação foi em sempre manter um caminho de ação claro para o usuário completar a promoção e consequentemente a compra.</div>
             </div>
         </div>
         <div class="col-lg-9 col-md-12 col-sm-12 secao-texto">
