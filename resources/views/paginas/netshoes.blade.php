@@ -54,7 +54,7 @@
         </div>
         <div class="col-12">
             <div class="projeto-imagem">
-                <img class="img-100" src="../img/projetos/netshoes/carrinho_original.jpg" />
+                <img class="img-100" src="../img/projetos/netshoes/Carrinho.png" />
                 <div class="legenda-imagem" >O carrinho não apresentava um caminho fácil para completar a promoção.</div>
             </div>
         </div>
