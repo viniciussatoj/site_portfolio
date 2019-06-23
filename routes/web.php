@@ -37,3 +37,6 @@ Route::get('/projetos/chatbot', function () {
 Route::get('/projetos/netshoes', function () {
     return view('paginas.netshoes');
 });
+Route::get('/projetos/alpargatas', function () {
+    return view('paginas.Alpargatas');
+});

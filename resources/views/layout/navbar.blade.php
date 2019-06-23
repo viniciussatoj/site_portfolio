@@ -9,7 +9,7 @@
         </div>
         <div class="col-md-6 col-sm-12">
             <a href="/"><h1 class="titulo-nome">Vinicius Sato</h1></a>
-            <span class="titulo-profissao"><b>UX/UI Designer. </b><small>Programador. Game Designer.</small></span>
+            <span class="titulo-profissao"><b>Product Designer. </b><small>Programador. Game Designer.</small></span>
         </div>
     </div>
     <div class="row justify-content-center">

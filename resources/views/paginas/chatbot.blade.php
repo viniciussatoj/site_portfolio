@@ -20,9 +20,6 @@
                         <span class="tipo">Data: </span><p>Julho, 2018</p>
                     </div>
                     <div class="dados">
-                        <span class="tipo">Prazo: </span><p>3 dias</p>
-                    </div>
-                    <div class="dados">
                         <span class="tipo">Plataforma: </span><p>Messenger</p>
                     </div>
                     <div class="dados">
@@ -113,7 +110,7 @@
         </div>
     </div>
 </div>
-<div class="impar"> 
+<div class="impar">
     <div class="container">
         <div class="row projeto justify-content-center">
             <div class="col-lg-9 col-md-12 col-sm-12 secao-texto">

@@ -11,19 +11,19 @@
             </div>
             <div class="row">
                 <div class="col-12 projeto-titulo">
-                    <h1>NightNights, aplicativo de histórias infantis</h1>
+                    <h1>Alpargatas, Redesign do app de vendas interno</h1>
                 </div>
             </div>
             <div class="row">
                 <div class="col-4 projeto-dados">
                     <div class="dados">
-                        <span class="tipo">Data: </span><p>Março, 2018</p>
+                        <span class="tipo">Data: </span><p>Junho, 2019</p>
                     </div>
                     <div class="dados">
-                        <span class="tipo">Plataforma: </span><p>Tablet</p>
+                      <span class="tipo">Plataforma: </span><p>app mobile</p>
                     </div>
                     <div class="dados">
-                        <span class="tipo">Ferramentas: </span><p>Figma, Photoshop, Illustrator</p>
+                        <span class="tipo">Ferramentas: </span><p>Figma</p>
                     </div>
                 </div>
                 <div class="col-8 projeto-descricao">
@@ -39,12 +39,9 @@
     <div class="container">
         <div class="row projeto justify-content-center">
             <div class="col-lg-9 col-md-12 col-sm-12 secao-explicacao">
-                <h3>Como era</h3>
-                <p>Sendo um protótipo, o app estava bem cru em questões de navegação, não havia como procurar temas, histórias específicas, autores, nada. Tudo o que o usuário poderia fazer é escolher uma história e torcer para que fosse boa.<br />O desafio então era melhorar a navegação no nosso app.</p>
-                <div class="projeto-imagem">
-                    <img class="img-80" src="../img/projetos/nightnights/Mini.png" />
-                    <div class="legenda-imagem" >O app veio praticamente sem maneira de navegar entre as histórias apresentadas.</div>
-                </div>
+                <h3>Introdução</h3>
+                <p>A Alpargatas possui várias marcas no seu portfolio: Osklen, Mizuno, Rainha, Timberland, Havaianas, etc. Para vender a ponta de estoque dessas marcas eles possuem um serviço interno chamado Alpashop onde eles podem comprar esses produtos a um valor reduzido.</p>
+                <p>A empresa se desfaz do seu estoque parado, gera boa vontade entre os empregados e fortalece a cultura da empresa. Um sistema onde todos saem ganhando.</p>
             </div>
         </div>
     </div>
@@ -52,36 +49,11 @@
 <div class="container">
     <div class="row projeto justify-content-center">
         <div class="col-lg-9 col-md-12 col-sm-12 secao-texto">
-            <h3>Feedback de usuários</h3>
-            <h5>Impressão dos usuários</h5>
-            <p>Foi perguntado aos usuários como eles usavam o app e chegamos em alguns feedbacks interessantes:</p>
-            <div class="citacao">
-                <p class="paragrafo-citacao">“I read NightNight stories all the time to my 5 year old son. We love picking out a story together, but sometimes we spend more time picking the story than actually reading it!”</p>
-                <p class="paragrafo-citacao">“I wish I had a better idea of how long the stories are before picking one. Sometimes I just want a short story to read to my daughter”</p>
-                <p class="paragrafo-citacao">“One day my son is into dinosaurs, the next day he’s obsessed with airplanes. I would love if there was an easier way to find stories about whatever his latest craze is.”</p>
-                <p class="paragrafo-citacao">“There have been a few occasions when my 3 year old daughter didn’t like the story we picked because it was hard for her to understand, and probably meant for a 7–8 year old’s vocabulary.”</p>
-                <p class="paragrafo-citacao">“Some of my friends use NightNight with their kids — we usually share recommendations since our kids are about the same age.”</p>
-            </div>
-            <p>Nós tiramos as seguintes hipóteses para estas questões:<br/>
-            <ol>
-                <li>Os usuários querem escolher a história rápido</li>
-                <li>Os usuários querem saber a duração da história</li>
-                <li>Os usuários querem saber sobre o quê é a história antes de lê-la</li>
-                <li>Os usuários querem saber a idade recomendada da história</li>
-                <li>Os usuários querem ver recomendações de seus amigos.</li>
-            </ol>
-            <p>Com base nisso foi feita uma pesquisa para definir qual a prioridade de cada informação.</p>
-        </div>
-    </div>
-    <div class="row projeto justify-content-center">
-        <div class="col-lg-6 secao-texto-dupla">
-            <div class="projeto-imagem-esquerda">
-                <img src="../img/projetos/nightnights/pesquisa.png" />
-            </div>
-        </div>
-        <div class="col-lg-4 secao-texto-dupla">
-            <p>Com isso nós percebemos que a listagem original estava totalmente errada, embora mostrar o autor fosse importante para quem criou, os pais não se importavam tanto com essa informação.<br />
-Os dados dessa pesquisa foram usados posteriormente como referência de importância de cada informação para ser listada.</p>
+            <h3>O problema</h3>
+            <p>A Alpargatas possui um sistema disponível apenas para os funcionários onde eles compram os produtos de ponta de estoque com um desconto extra.
+              <br/>
+O funcionário retira o produto na empresa e tem o valor descontado no seu próximo salário.</p>
+            <p>Mas a usabilidade do app acaba atrapalhando essa experiência tornando uma experiência em que o funcionário deveria estar feliz, gerando boa vontade com a empresa em algo confuso e frustrante.</p>
         </div>
     </div>
 </div>
@@ -89,7 +61,13 @@ Os dados dessa pesquisa foram usados posteriormente como referência de importâ
     <div class="container">
         <div class="row projeto justify-content-center">
             <div class="col-lg-9 col-md-12 col-sm-12  secao-texto">
-                <h3>Definição de soluções</h3>
+                <h3>Preparação</h3>
+                <p>Como a proposta era um redesign era um app, ter uma visão geral das funções e como elas se relacionam era crucial para a obtenção de insights. Como o tempo era curto, eu decidi me ater a 3 metodologias:</p>
+                <ol>
+                    <li>Definir uma proto persona</li>
+                    <li>Traçar a jornada de usuário</li>
+                    <li>Desenhar o sitemap</li>
+                </ol>
                 <h5>How Might We</h5>
                 <p>O próximo passo foi utilizar o processo “How Might We” para pensar em soluções para os problemas encontrados. Aqui eu tentei considerar as soluções em uma escala de possibilidade de implementação para determinar quais seriam utilizadas nessa iteração do app.</p>
                 <div class="projeto-imagem">

@@ -3,7 +3,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Vinicius Sato | UX Designer</title>
+    <title>Vinicius Sato | Product Designer</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
